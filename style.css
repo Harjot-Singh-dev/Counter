@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsla(230, 84%, 62%, 0.916);
+    color: hsla(41, 88%, 59%, 0.916);
+}
+
+h1,h2{
+    margin: 25px;
+    text-align: center;
+}
+
+main{
+    padding: 7em 0 7em 0;
+}
+
+#countLabel{
+    font-size: 10em;
+    font-family: Helvetica;
+    text-align: center;
+    display: block;
+    margin: 25px;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px;
+    margin: 5px;
+    background-color: hsla(128, 100%, 64%, 0.863);
+    color: rgba(238, 55, 55, 0.867);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons:hover{
+    background-color: hsla(128, 100%, 64%, 0.496);
+}
